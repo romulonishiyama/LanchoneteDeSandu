@@ -5,7 +5,7 @@ public class LojaDeSanduiches {
     private String CNPJ = "63.358.000/0001-51";
     private String razaoSocial = "Lanches SAI LTDA";
     private String endereco = "Rua da fome";
-    Cliente cliente;
+    private Cliente cliente;
     private boolean receberPedido;
 
     public void cadastrarCliente() {

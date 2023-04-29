@@ -7,7 +7,7 @@ public class Cliente {
     private String nome;
     private String telefone;
     private List<Pedido> pedidos = new ArrayList<>();
-    Pedido pedido;
+    private Pedido pedido;
 
     Cliente(String nome, String cpf, String telefone) {
         this.telefone = telefone;
